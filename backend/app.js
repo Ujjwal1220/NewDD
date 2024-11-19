@@ -20,7 +20,7 @@ const _dirname = path.resolve();
 const PORT = process.env.PORT || 7777;
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://newdd.onrender.com",
     credentials: true,
   })
 );
